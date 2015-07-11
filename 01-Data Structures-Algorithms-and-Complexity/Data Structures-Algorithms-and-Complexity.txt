@@ -1,0 +1,101 @@
+1. Calculate the expected running time O(f(n)) of the Add(T) operation in the above code in the worst case.
+public void Add(T item)
+{
+    var newArr = new T[this.arr.Length + 1];            O(1)
+    Array.Copy(this.arr, newArr, this.arr.Length);      O(n)
+    newArr[newArr.Length - 1] = item;                   O(1)
+    this.arr = newArr;                                  O(1)
+}
+
+Answer:
+O(f(n)) = 3 + n
+Worst case complexity: O(n)
+
+2. Calculate the expected running time O(f(n)) of the Remove(index) operation in the worst case.
+public T Remove(int index)
+{
+    T result = this.arr[index];                                                     O(1)
+    var newArr = new T[this.arr.Length - 1];                                        O(1)
+    Array.Copy(this.arr, newArr, index);                                            O(n - index)
+    Array.Copy(this.arr, index + 1, newArr, index, this.arr.Length - index - 1);    O(n - index - 1)
+    this.arr = newArr;                                                              O(1)
+    return result;                                                                  O(1)
+}
+
+Answer:
+O(f(n)) = 3 + 2n - 2 * index
+Worst case complexity: O(n)
+
+3. Calculate the expected running time O(f(n)) of the Remove(index) operation in the best case.
+Answer: O(6) - one action at each step
+
+4. Calculate the expected running time O(f(n)) of the Remove(index) operation in the average case.
+Answer:
+O(f(n)) = (3 + 2n - 2 * index) / 6
+
+5. Calculate the expected running time O(f(n)) of the RemoveFirst(T) operation.
+public T RemoveFirst()
+{
+    return this.Remove(0);
+}
+
+Answer:
+The same answer like problem 2 + one more step:
+O(f(n)) = 3 + 2n - 2 * index + 1
+Complexity: O(n)
+
+6. Calculate the expected running time O(f(n)) of the RemoveLast(T) operation.
+public T RemoveLast()
+{
+    return this.Remove(this.Length - 1);
+}
+
+Answer:
+The same answer like problem 6:
+O(f(n)) = 3 + 2n - 2 * index + 1
+Complexity: O(n)
+
+7. Calculate the expected running time O(f(n)) of the Length operation.
+public int Length
+{
+    get
+    {
+        return this.arr.Length;
+    }
+}
+
+Answer: O(f(n)) = O(1)
+
+8. Calculate the expected running time O(f(n)) of the operation this[index].
+public T this[int index]
+{
+    get
+    {
+        return this.arr[index];
+    }
+}
+
+Answer: O(f(n)) = O(1)
+
+9. Calculate the expected running time O(f(n)) of the First operation.
+public T First
+{
+    get
+    {
+        return this.arr[0];
+    }
+}
+
+
+Answer: O(f(n)) = O(1)
+
+10. Calculate the expected running time O(f(n)) of the Last operation.
+public T Last
+{
+    get
+    {
+        return this.arr[this.arr.Length - 1];
+    }
+}
+
+Answer: O(f(n)) = O(1)

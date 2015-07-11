@@ -1,0 +1,6 @@
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\04-RemoveOddOccurences\bin\Debug\04-RemoveOddOccurences.exe.config
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\04-RemoveOddOccurences\obj\Debug\04-RemoveOddOccurences.csprojResolveAssemblyReference.cache
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\04-RemoveOddOccurences\bin\Debug\04-RemoveOddOccurences.exe
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\04-RemoveOddOccurences\bin\Debug\04-RemoveOddOccurences.pdb
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\04-RemoveOddOccurences\obj\Debug\04-RemoveOddOccurences.exe
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\04-RemoveOddOccurences\obj\Debug\04-RemoveOddOccurences.pdb

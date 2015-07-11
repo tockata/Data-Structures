@@ -1,0 +1,5 @@
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\05-CountOfOccurences\bin\Debug\05-CountOfOccurences.exe.config
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\05-CountOfOccurences\bin\Debug\05-CountOfOccurences.exe
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\05-CountOfOccurences\bin\Debug\05-CountOfOccurences.pdb
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\05-CountOfOccurences\obj\Debug\05-CountOfOccurences.exe
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\05-CountOfOccurences\obj\Debug\05-CountOfOccurences.pdb

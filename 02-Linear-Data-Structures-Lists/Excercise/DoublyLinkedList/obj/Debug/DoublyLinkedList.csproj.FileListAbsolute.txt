@@ -1,0 +1,5 @@
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList\bin\Debug\DoublyLinkedList.exe
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList\bin\Debug\DoublyLinkedList.pdb
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList\obj\Debug\DoublyLinkedList.csprojResolveAssemblyReference.cache
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList\obj\Debug\DoublyLinkedList.exe
+D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList\obj\Debug\DoublyLinkedList.pdb
