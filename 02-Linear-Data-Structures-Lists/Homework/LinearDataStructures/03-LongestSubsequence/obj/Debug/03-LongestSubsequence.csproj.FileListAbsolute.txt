@@ -1,6 +1,0 @@
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\03-LongestSubsequence\bin\Debug\03-LongestSubsequence.exe.config
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\03-LongestSubsequence\bin\Debug\03-LongestSubsequence.exe
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\03-LongestSubsequence\bin\Debug\03-LongestSubsequence.pdb
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\03-LongestSubsequence\obj\Debug\03-LongestSubsequence.csprojResolveAssemblyReference.cache
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\03-LongestSubsequence\obj\Debug\03-LongestSubsequence.exe
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\03-LongestSubsequence\obj\Debug\03-LongestSubsequence.pdb

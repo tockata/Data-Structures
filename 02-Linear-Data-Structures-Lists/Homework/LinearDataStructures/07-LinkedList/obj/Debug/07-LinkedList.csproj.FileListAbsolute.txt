@@ -1,9 +1,0 @@
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\LinkedList\obj\Debug\07-LinkedList.csprojResolveAssemblyReference.cache
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\LinkedList\bin\Debug\LinkedList.exe.config
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\LinkedList\bin\Debug\LinkedList.exe
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\LinkedList\bin\Debug\LinkedList.pdb
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\LinkedList\obj\Debug\LinkedList.exe
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\LinkedList\obj\Debug\LinkedList.pdb
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\07-LinkedList\bin\Debug\LinkedList.exe.config
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\07-LinkedList\obj\Debug\LinkedList.exe
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\07-LinkedList\obj\Debug\LinkedList.pdb

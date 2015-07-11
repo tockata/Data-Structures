@@ -1,6 +1,0 @@
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\02-SortWords\bin\Debug\02-SortWords.exe.config
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\02-SortWords\bin\Debug\02-SortWords.exe
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\02-SortWords\bin\Debug\02-SortWords.pdb
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\02-SortWords\obj\Debug\02-SortWords.exe
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\02-SortWords\obj\Debug\02-SortWords.pdb
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\02-SortWords\obj\Debug\02-SortWords.csprojResolveAssemblyReference.cache

@@ -1,7 +1,0 @@
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\06-TestReversedList\bin\Debug\06-TestReversedList.dll
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\06-TestReversedList\bin\Debug\06-TestReversedList.pdb
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\06-TestReversedList\bin\Debug\06-ReversedList.exe
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\06-TestReversedList\bin\Debug\06-ReversedList.pdb
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\06-TestReversedList\obj\Debug\06-TestReversedList.csprojResolveAssemblyReference.cache
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\06-TestReversedList\obj\Debug\06-TestReversedList.dll
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Homework\LinearDataStructures\06-TestReversedList\obj\Debug\06-TestReversedList.pdb

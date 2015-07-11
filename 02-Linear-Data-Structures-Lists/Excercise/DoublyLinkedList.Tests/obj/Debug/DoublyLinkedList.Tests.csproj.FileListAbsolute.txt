@@ -1,7 +1,0 @@
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList.Tests\obj\Debug\DoublyLinkedList.Tests.csprojResolveAssemblyReference.cache
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList.Tests\bin\Debug\DoublyLinkedList.Tests.dll
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList.Tests\bin\Debug\DoublyLinkedList.Tests.pdb
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList.Tests\bin\Debug\DoublyLinkedList.exe
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList.Tests\bin\Debug\DoublyLinkedList.pdb
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList.Tests\obj\Debug\DoublyLinkedList.Tests.dll
-D:\Programming\Software_University\Homeworks\Data-Structures-HW\02-Linear-Data-Structures-Lists\Excercise\DoublyLinkedList.Tests\obj\Debug\DoublyLinkedList.Tests.pdb
