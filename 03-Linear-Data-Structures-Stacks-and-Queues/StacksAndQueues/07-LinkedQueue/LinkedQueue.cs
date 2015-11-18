@@ -1,4 +1,6 @@
-﻿namespace _07_LinkedQueue
+﻿using System;
+
+namespace _07_LinkedQueue
 {
     public class LinkedQueue<T>
     {
@@ -32,10 +34,38 @@
 
         public T Dequeue()
         {
+            if (this.Count == 0)
+            {
+                throw new InvalidOperationException("The queue is empty!");
+            }
+            else if (this.Count == 1)
+            {
+                var element = this.head.Value;
+                this.head = this.tail = null;
+                this.Count--;
+                return element;
+            }
+            else
+            {
+                var element = this.head.Value;
+                this.head = this.head.NextNode;
+                this.head.PrevNode = null;
+                this.Count--;
+                return element;
+            }
         }
 
         public T[] ToArray()
         {
+            var result = new T[this.Count];
+            var currentNode = this.head;
+            for (int i = 0; i < this.Count; i++)
+            {
+                result[i] = currentNode.Value;
+                currentNode = currentNode.NextNode;
+            }
+
+            return result;
         }
 
         private class QueueNode<T>
