@@ -8,7 +8,7 @@
     {
         private static Dictionary<int, Tree<int>> nodeByValue = new Dictionary<int, Tree<int>>();
 
-        public static void Main(string[] args)
+        public static void Main()
         {
             int nodesCount = int.Parse(Console.ReadLine());
             for (int i = 1; i < nodesCount; i++)
@@ -26,14 +26,26 @@
             int subtreeSum = int.Parse(Console.ReadLine());
 
             var rootNode = FindRootNode();
+            Console.WriteLine(string.Format("Root node: {0}", rootNode.Value));
+
             var leafNodes = FindLeafNodes();
+            Console.WriteLine("Leaf nodes: {0}", string.Join(" ", leafNodes.Select(n => n.Value)));
+
             var middleNodes = FindMiddleNodes();
+            Console.WriteLine("Middle nodes: {0}", string.Join(" ", middleNodes.Select(n => n.Value)));
+
+            var longestPath = FindTheLongestPath(rootNode);
+            Console.WriteLine(
+                "Longest path: {0} (length = {1})",
+                string.Join(" -> ", longestPath.Select(n => n.Value)),
+                longestPath.Count);
         }
 
         private static IEnumerable<Tree<int>> FindLeafNodes()
         {
             var leafNodes = nodeByValue.Values
                 .Where(n => !n.Children.Any() && n.Parent != null)
+                .OrderBy(n => n.Value)
                 .ToList();
 
             return leafNodes;
@@ -43,6 +55,7 @@
         {
             var middleNodes = nodeByValue.Values
                 .Where(n => n.Children.Any() && n.Parent != null)
+                .OrderBy(n => n.Value)
                 .ToList();
 
             return middleNodes;
@@ -52,6 +65,24 @@
         {
             var rootNode = nodeByValue.Values.FirstOrDefault(n => n.Parent == null);
             return rootNode;
+        }
+
+        private static List<Tree<int>> FindTheLongestPath(Tree<int> rootNode)
+        {
+            List<Tree<int>> path = new List<Tree<int>>();
+
+            foreach (var child in rootNode.Children)
+            {
+                List<Tree<int>> tempPath = FindTheLongestPath(child);
+                if (tempPath.Count > path.Count)
+                {
+                    path = tempPath;
+                }
+            }
+
+            path.Insert(0, rootNode);
+
+            return path;
         }
 
         private static Tree<int> GetTreeNodeByValue(int value)
