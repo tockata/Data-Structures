@@ -7,6 +7,8 @@
     public class PlayWithTrees
     {
         private static Dictionary<int, Tree<int>> nodeByValue = new Dictionary<int, Tree<int>>();
+        private static List<List<Tree<int>>> pathsWithGivenSum = new List<List<Tree<int>>>();
+        private static Stack<Tree<int>> tempPath = new Stack<Tree<int>>();
 
         public static void Main()
         {
@@ -39,6 +41,32 @@
                 "Longest path: {0} (length = {1})",
                 string.Join(" -> ", longestPath.Select(n => n.Value)),
                 longestPath.Count);
+
+            FindAllPaths(rootNode, pathSum);
+            Console.WriteLine("Paths of sum {0}:", pathSum);
+            foreach (var path in pathsWithGivenSum)
+            {
+                Console.WriteLine(string.Join(" -> ", path.Select(n => n.Value)));
+            }
+        }
+
+        private static void FindAllPaths(Tree<int> node, int sum)
+        {
+            tempPath.Push(node);
+            foreach (var child in node.Children)
+            {
+                FindAllPaths(child, sum);
+            }
+
+            int tempPathSum = tempPath.Sum(n => n.Value);
+            if (tempPathSum == sum)
+            {
+                var foundPath = tempPath.ToList();
+                foundPath.Reverse();
+                pathsWithGivenSum.Add(foundPath);
+            }
+
+            tempPath.Pop();
         }
 
         private static IEnumerable<Tree<int>> FindLeafNodes()
