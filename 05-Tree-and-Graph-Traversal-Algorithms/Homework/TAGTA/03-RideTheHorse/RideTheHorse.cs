@@ -18,6 +18,7 @@
             Point startPoint = new Point { X = startRow, Y = startCol, Value = 1 };
             BFS(startPoint);
 
+            Console.WriteLine("\nFull matrix:");
             for (int row = 0; row < matrix.GetLength(1); row++)
             {
                 for (int col = 0; col < matrix.GetLength(0); col++)
@@ -26,6 +27,12 @@
                 }
 
                 Console.WriteLine();
+            }
+
+            Console.WriteLine("\nResult column:");
+            for (int i = 0; i < matrix.GetLength(1); i++)
+            {
+                Console.WriteLine(matrix[cols / 2, i]);
             }
         }
 
