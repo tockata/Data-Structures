@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BFD087B9-FC88-4960-BFDE-47C6C63950A5}</ProjectGuid>
+    <ProjectGuid>{D68806A5-AAF7-49A9-B4E0-69199EB3C3A0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02_CountSymbols</RootNamespace>
-    <AssemblyName>02-CountSymbols</AssemblyName>
+    <RootNamespace>_03_Phonebook</RootNamespace>
+    <AssemblyName>03-Phonebook</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountSymbols.cs" />
+    <Compile Include="Phonebook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

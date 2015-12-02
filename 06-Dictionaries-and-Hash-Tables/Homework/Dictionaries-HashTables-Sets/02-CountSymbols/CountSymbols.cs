@@ -1,8 +1,8 @@
 ﻿namespace _02_CountSymbols
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
+    using Dictionary;
 
     public class CountSymbols
     {
